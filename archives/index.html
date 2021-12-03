@@ -434,13 +434,21 @@
                 <span class="abstract-title-text">动态规划01</span>
             </a>
             <div class="abstract-content">
-                
+                动态规划初识动态规划问题的问题一般形式就是求解最优化问题。（拥有很多的可行解，每个解都有一个值，目标是寻找最优值的解）。比如最长递增子序列，最小编辑距离等。
+对于动态规划，其核心问题就是穷举，只要再所有的可行答案都穷举出来再找到最值，就能解决问题。
+与分治法不同之处在于，分治法解决的问题是互不相交的子问题，而动态规划所能解决的问题是适用于子问题重叠得情况。
+也就是这类问题中存在：重叠子问题。使得暴力穷举会导致效率抵下。
+其实只要能够找到正确的”状态转移方程“就能成功的解决动态规划类型的题目。
+动态规划算法的设计步骤：
+
+刻画一个最优解的结构特征（寻找一个问题的 base case ）
+递...
             </div>
             <!-- read more -->
             
             <div class="abstract-post-meta">
                 <!-- date -->
-                <div class="abstract-date" title="Last updated: 2021/11/27">
+                <div class="abstract-date" title="Last updated: 2021/12/03">
                     <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2021/11/27</span>
                 </div>
                 <!-- tags -->
